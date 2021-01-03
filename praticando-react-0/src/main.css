@@ -1,0 +1,63 @@
+* {
+    font-family: fantasy;
+}
+
+body{
+    background-color: mediumvioletred;
+}
+
+hr {
+    border: none;
+    border: 1px solid rgb(209, 33, 144);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1, h2 {
+    width: 100%;
+    text-align: center;
+    color: rgb(68, 11, 68);
+}
+
+.field {
+    padding: 20px;
+    border-bottom: 2px solid rgb(209, 33, 144);
+}
+
+.field:last-child{
+    border: none;
+}
+.commenter{
+    background-color: azure;
+    padding: 20px;
+    border-radius: 0.7rem;
+}
+
+.input {
+    outline: none;
+    border-radius: 0.8rem;
+    border: none;
+    padding: 10px;
+    background-color: hotpink;
+    color: indigo;
+    transition: 0.2s;
+}
+
+.input:focus{
+    background-color: rgb(248, 55, 152);
+}
+
+.btn{
+    margin: 5px;
+    background: none;
+    border: none;
+    outline: none;
+
+    padding: 10px;
+    color: rgb(60, 1, 102);
+    font-size: 1.3rem;
+}
